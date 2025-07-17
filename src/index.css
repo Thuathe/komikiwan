@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'aos/dist/aos.css';
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
