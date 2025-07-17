@@ -224,7 +224,6 @@ const JourneyPage = () => {
                 "Kelulusan Iwan Dari Um"
               </p>
             </div>
-
             <div className="text-white text-center pt-20 animate-fade-in">
               <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
                 Anak PTI,
@@ -248,8 +247,402 @@ const JourneyPage = () => {
             </div>
             <div className="text-white text-center pb-[400px] animate-fade-in">
               <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
-                Iwan.
+                Kita.
               </p>
+            </div>
+            <div className="text-white text-center animate-fade-in">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Untuk Waktu yang lama,
+              </p>
+            </div>
+            <div className="w-full flex justify-center items-center my-10">
+              <div className="w-[90%] border-4 border-black overflow-hidden">
+                <img
+                  src="/img/q.jpg"
+                  alt="Awal Perjalanan"
+                  className="w-full aspect-[4/4] object-cover cursor-pointer transition-transform duration-300 hover:scale-[0.99]"
+                  onClick={() =>
+                    setPopup({
+                      src: "/img/q.jpg",
+                      alt: "Awal Perjalanan",
+                      caption: "Awal yang sunyi...",
+                      description:
+                        "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                    })
+                  }
+                />
+              </div>
+            </div>
+            <div className="text-white text-center pb-[400px] animate-fade-in">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Kita terus-terusan berangkat kuliah sampai sore.
+              </p>
+            </div>
+            <div className="text-white text-center animate-fade-in">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Kita telah mendapatkan sesuatu
+              </p>
+            </div>
+            <div className="w-full  border-y-[5px] border-black">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+            <div className="text-white text-center pb-[500px] animate-fade-in">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Bersama dengan alasan apapun untuk semua tindakanya.
+              </p>
+            </div>
+            <div className="text-white text-center animate-fade-in pb-[500px]">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Semua yang tersisa hanyalah ingatan.
+              </p>
+            </div>
+            <div className="text-white text-center animate-fade-in ">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Tiba-tiba,
+              </p>
+            </div>
+            <div className="w-full  border-y-[5px] border-black">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+            <div className="text-white text-center animate-fade-in mb-[400px]">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Kita bertemu bersama.
+              </p>
+            </div>
+            <div className="mb-[500px] text-white text-center animate-fade-in ">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Jadi, kita mencoba untuk membuat kelompok bersama.
+              </p>
+            </div>
+            <div className="text-white text-center animate-fade-in ">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Tapi selalu gagal.
+              </p>
+            </div>
+            <div className="w-full  border-y-[5px] border-black mb-[300px]">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+            <div className="text-white text-center animate-fade-in ">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Lalu, Dipercobaan baru,
+              </p>
+            </div>
+            <div className="w-full  border-y-[5px] border-black">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+            <div className="text-white text-center animate-fade-in mb-[500px]">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Kita mencari teman sendiri
+              </p>
+            </div>
+            <div className="text-white text-center animate-fade-in ">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Dan menciptakan seorang teman
+              </p>
+            </div>
+            <div className="w-full  border-y-[5px] border-black">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+            <div className=" bg-gradient-to-b from-gray-800 via-gray-600 to-white">
+              <div className="text-white text-center animate-fade-in ">
+                <p className=" text-center text-[20px] pb-[600px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                  Yang akan hidup sebagai kelompoknya
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[300px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[300px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[100px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full  border-y-[5px] border-black mb-[300px]">
+            <img
+              src="/img/q.jpg"
+              alt="Awal Perjalanan"
+              className="w-full object-cover aspect-[4/4] cursor-pointer transition-transform duration-300 hover:scale-[99%]"
+              onClick={() =>
+                setPopup({
+                  src: "/img/q.jpg",
+                  alt: "Awal Perjalanan",
+                  caption: "Awal yang sunyi...",
+                  description:
+                    "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                })
+              }
+            />
+          </div>
+
+          <div className="w-full flex justify-center items-center my-10">
+            <div className="w-[90%] border-4 border-black overflow-hidden">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full aspect-[4/4] object-cover cursor-pointer transition-transform duration-300 hover:scale-[0.99]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+          </div>
+
+          <div className="mb-[50px] w-full flex justify-center items-center my-10">
+            <div className="w-[80%] mr-[50px] border-4 border-black overflow-hidden">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full aspect-[4/4] object-cover cursor-pointer transition-transform duration-300 hover:scale-[0.99]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+          </div>
+
+          <div className="mb-[100px] w-full flex justify-center items-center my-10">
+            <div className="w-[70%] ml-[100px] border-4 border-black overflow-hidden">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full aspect-[4/4] object-cover cursor-pointer transition-transform duration-300 hover:scale-[0.99]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
+            </div>
+          </div>
+
+          <div className="w-full flex justify-center items-center my-10">
+            <div className="w-[60%] border-4 border-black overflow-hidden">
+              <img
+                src="/img/q.jpg"
+                alt="Awal Perjalanan"
+                className="w-full aspect-[4/4] object-cover cursor-pointer transition-transform duration-300 hover:scale-[0.99]"
+                onClick={() =>
+                  setPopup({
+                    src: "/img/q.jpg",
+                    alt: "Awal Perjalanan",
+                    caption: "Awal yang sunyi...",
+                    description:
+                      "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
+                  })
+                }
+              />
             </div>
           </div>
         </div>
@@ -280,98 +673,3 @@ const JourneyPage = () => {
 };
 
 export default JourneyPage;
-
-// <div className="bg-black">
-//   {/* === Opening Dramatic Text === */}
-//   <div className="text-center pt-32 pb-20 px-6 animate-fade-in">
-//     <p className="text-xl italic opacity-70">
-//       “Dalam diam... semuanya bermula.”
-//     </p>
-//   </div>
-
-//   {/* === First Image === */}
-//   <div className="w-full max-w-md mx-auto mb-20">
-//     <img
-//       src="/img/q.jpg"
-//       alt="Awal Perjalanan"
-//       className="rounded-sm shadow-lg w-full object-cover aspect-[3/4] cursor-pointer hover:scale-105 transition-transform duration-300"
-//       onClick={() =>
-//         setPopup({
-//           src: "/img/q.jpg",
-//           alt: "Awal Perjalanan",
-//           caption: "Awal yang sunyi...",
-//           description:
-//             "Semuanya bermula dari langkah kecil, dalam gelap yang menggantung.",
-//         })
-//       }
-//     />
-//   </div>
-// </div>
-
-//   <div className="text-black text-center pt-32 pb-32 px-6 animate-fade-in mb-[200px]">
-//           <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in">
-//     Dalam gelap…
-//   </p>
-//   </div>
-// <div>
-//   {/* === Text Imbuhan === */}
-//   <p className="bg-black text-center text-sm italic opacity-60 my-16 animate-fade-in">
-//     ...masih samar, tapi terasa...
-//   </p>
-
-//   {/* === Second Image === */}
-//   <div className="w-full max-w-md mx-auto mb-20">
-//     <img
-//       src="/img/q.jpg"
-//       alt="Langkah Kedua"
-//       className="rounded-sm shadow-lg w-full object-cover aspect-[9/16] cursor-pointer hover:scale-105 transition-transform duration-300"
-//       onClick={() =>
-//         setPopup({
-//           src: "/img/q.jpg",
-//           alt: "Langkah Kedua",
-//           caption: "Ada harapan di sana",
-//           description:
-//             "Cahaya perlahan muncul dari sela-sela dedaunan yang membungkus.",
-//         })
-//       }
-//     />
-//   </div>
-
-//   {/* === Mid Title === */}
-//   <div className="text-center my-48 animate-fade-in">
-//     <h1 className="text-4xl font-bold tracking-wide mb-3">
-//       SEBUAH PERJALANAN
-//     </h1>
-//     <p className="text-sm italic opacity-60">
-//       Bab I – Dalam Gelap, Aku Menemukan Cahaya
-//     </p>
-//   </div>
-
-//   {/* === Another Text === */}
-//   <p className="text-center text-sm italic opacity-60 my-16">
-//     ...hingga langkah ini terasa benar...
-//   </p>
-
-//   {/* === Third Image === */}
-//   <div className="w-full max-w-md mx-auto mb-20">
-//     <img
-//       src="/img/q.jpg"
-//       alt="Bayangan Masa Lalu"
-//       className="rounded-sm shadow-lg w-full object-cover aspect-[3/4] cursor-pointer hover:scale-105 transition-transform duration-300"
-//       onClick={() =>
-//         setPopup({
-//           src: "/img/q.jpg",
-//           alt: "Bayangan Masa Lalu",
-//           caption: "Kenangan itu datang kembali...",
-//           description:
-//             "Ada masa lalu yang tak bisa dihindari, namun juga tak bisa ditinggalkan begitu saja.",
-//         })
-//       }
-//     />
-//   </div>
-
-//   {/* === Ending Section (bisa tambahkan lagi lanjutannya) === */}
-//   <div className="text-center py-32 opacity-50 text-sm">
-//     <p>to be continued...</p>
-//   </div>
-// </div>
