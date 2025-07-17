@@ -13,7 +13,7 @@ const images = [
 
 const MemoryFlashback = () => {
   return (
-<div className="w-screen overflow-hidden border-y-4 border-black mb-[200px] bg-black">
+<div className="w-screen overflow-hidden border-y-4 border-black mb-[500px] bg-black">
   <div className="aspect-[2/1] md:h-[500px] h-[300px] relative w-full">
     {images.map((img, i) => (
       <img
