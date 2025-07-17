@@ -645,6 +645,70 @@ const JourneyPage = () => {
               />
             </div>
           </div>
+
+          <div
+            className="w-full h-[500px] bg-no-repeat bg-cover bg-left"
+            style={{
+              backgroundImage: "url('/img/transisi.jpg')",
+            }}
+          ></div>
+          <div className="bg-black">
+            <div className="p-[10px]"></div>
+
+<div className="w-full flex justify-end  py-10 ml-[50px]  overflow-hidden">
+  <div className="relative w-[350px] h-[350px] rotate-45 mt-[50px] mb-[50px] border-[2px] border-black overflow-hidden shadow-md">
+    <img
+      src="/img/q.jpg"
+      alt="Diamond Style"
+      className="absolute top-0 left-0 w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+            <div className="text-white text-center animate-fade-in mt-[300px] mb-[300px]">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+                Akhirnya...
+              </p>
+            </div>
+
+<div className="w-full flex justify-start py-10 mr-[20px] overflow-hidden">
+  <div className="relative w-[400px] h-[800px] rotate-45 mt-[50px] mb-[50px] border-[2px] border-black overflow-hidden shadow-md">
+    <img
+      src="/img/q.jpg"
+      alt="Diamond Style"
+      className="absolute top-0 left-0 w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+<div className="w-full flex justify-end  py-10 ml-[10px]  overflow-hidden mb-[400px]">
+  <div className="relative w-[350px] h-[500px] rotate-45 mt-[50px] mb-[50px] border-[2px] border-black overflow-hidden shadow-md">
+    <img
+      src="/img/q.jpg"
+      alt="Diamond Style"
+      className="absolute top-0 left-0 w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+<div className="w-full flex justify-center py-10 overflow-hidden">
+  <div className="relative w-[500px] h-[500px] rotate-45 mt-[50px] mb-[50px] border-[2px] border-black overflow-hidden shadow-md">
+    <img
+      src="/img/q.jpg"
+      alt="Diamond Style"
+      className="absolute top-0 left-0 w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+            <div className="text-white text-center animate-fade-in mt-[800px] mb-[300px]">
+              <p className=" text-center text-[20px] italic opacity-60 my-16 animate-fade-in px-[70px]">
+               Semua selesai disini.
+              </p>
+            </div>
+
+            <div className="p-[10px]"></div>
+          </div>
         </div>
       </div>
 
